@@ -13,6 +13,9 @@
 		643E3FF21D6AE5EE00F1915B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643E3FF01D6AE5EE00F1915B /* MainMenu.xib */; };
 		643E3FFD1D6AE5EE00F1915B /* ProjectCleanerCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FFC1D6AE5EE00F1915B /* ProjectCleanerCocoaTests.m */; };
 		643E40081D6AE5EE00F1915B /* ProjectCleanerCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E40071D6AE5EE00F1915B /* ProjectCleanerCocoaUITests.m */; };
+		6446574E1D6AFFEF00488ADF /* chuizi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6446574C1D6AFFEF00488ADF /* chuizi.png */; };
+		6446574F1D6AFFEF00488ADF /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 6446574D1D6AFFEF00488ADF /* no.png */; };
+		644657531D6B039800488ADF /* WAYWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 644657521D6B039800488ADF /* WAYWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,10 @@
 		643E40031D6AE5EE00F1915B /* ProjectCleanerCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCleanerCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		643E40071D6AE5EE00F1915B /* ProjectCleanerCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectCleanerCocoaUITests.m; sourceTree = "<group>"; };
 		643E40091D6AE5EE00F1915B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6446574C1D6AFFEF00488ADF /* chuizi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuizi.png; sourceTree = "<group>"; };
+		6446574D1D6AFFEF00488ADF /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		644657511D6B039800488ADF /* WAYWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYWindow.h; sourceTree = "<group>"; };
+		644657521D6B039800488ADF /* WAYWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +103,11 @@
 		643E3FE71D6AE5EE00F1915B /* ProjectCleanerCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				644657501D6B039800488ADF /* Libraries */,
+				6446574B1D6AFFEF00488ADF /* Resources */,
+				649F634D1D6AEF580003EDD1 /* Controllers */,
+				649F634E1D6AEF580003EDD1 /* Models */,
+				649F634F1D6AEF580003EDD1 /* Views */,
 				643E3FE81D6AE5EE00F1915B /* AppDelegate.h */,
 				643E3FE91D6AE5EE00F1915B /* AppDelegate.m */,
 				643E3FEE1D6AE5EE00F1915B /* Assets.xcassets */,
@@ -130,6 +142,45 @@
 				643E40091D6AE5EE00F1915B /* Info.plist */,
 			);
 			path = ProjectCleanerCocoaUITests;
+			sourceTree = "<group>";
+		};
+		6446574B1D6AFFEF00488ADF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6446574C1D6AFFEF00488ADF /* chuizi.png */,
+				6446574D1D6AFFEF00488ADF /* no.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		644657501D6B039800488ADF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				644657511D6B039800488ADF /* WAYWindow.h */,
+				644657521D6B039800488ADF /* WAYWindow.m */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		649F634D1D6AEF580003EDD1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		649F634E1D6AEF580003EDD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		649F634F1D6AEF580003EDD1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +288,8 @@
 			files = (
 				643E3FEF1D6AE5EE00F1915B /* Assets.xcassets in Resources */,
 				643E3FF21D6AE5EE00F1915B /* MainMenu.xib in Resources */,
+				6446574F1D6AFFEF00488ADF /* no.png in Resources */,
+				6446574E1D6AFFEF00488ADF /* chuizi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644657531D6B039800488ADF /* WAYWindow.m in Sources */,
 				643E3FED1D6AE5EE00F1915B /* main.m in Sources */,
 				643E3FEA1D6AE5EE00F1915B /* AppDelegate.m in Sources */,
 			);
@@ -483,6 +537,7 @@
 				643E400E1D6AE5EE00F1915B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643E400F1D6AE5EE00F1915B /* Build configuration list for PBXNativeTarget "ProjectCleanerCocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +546,7 @@
 				643E40111D6AE5EE00F1915B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643E40121D6AE5EE00F1915B /* Build configuration list for PBXNativeTarget "ProjectCleanerCocoaUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +555,7 @@
 				643E40141D6AE5EE00F1915B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
