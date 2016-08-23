@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6435313A1D6BE47400DB26D3 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531391D6BE47400DB26D3 /* apple.png */; };
+		6435313C1D6BE71400DB26D3 /* PCTitleBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435313B1D6BE71400DB26D3 /* PCTitleBar.xib */; };
+		6435313F1D6BE7BA00DB26D3 /* PCTitleBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435313E1D6BE7BA00DB26D3 /* PCTitleBarController.m */; };
+		643531421D6BF00A00DB26D3 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531401D6BF00A00DB26D3 /* menu-button.png */; };
+		643531431D6BF00A00DB26D3 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531411D6BF00A00DB26D3 /* settings.png */; };
+		643531451D6BF03D00DB26D3 /* browser-visualization.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531441D6BF03D00DB26D3 /* browser-visualization.png */; };
+		643531471D6C0C4600DB26D3 /* tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531461D6C0C4600DB26D3 /* tracker.png */; };
+		6435314B1D6C14D600DB26D3 /* open-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 6435314A1D6C14D600DB26D3 /* open-book.png */; };
+		6435314D1D6C14FA00DB26D3 /* openFile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6435314C1D6C14FA00DB26D3 /* openFile.png */; };
+		643531501D6C1F1500DB26D3 /* PCMyProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435314F1D6C1F1500DB26D3 /* PCMyProjectViewController.m */; };
+		643531531D6C1F5F00DB26D3 /* PCSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */; };
 		643E3FEA1D6AE5EE00F1915B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FE91D6AE5EE00F1915B /* AppDelegate.m */; };
 		643E3FED1D6AE5EE00F1915B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FEC1D6AE5EE00F1915B /* main.m */; };
 		643E3FEF1D6AE5EE00F1915B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643E3FEE1D6AE5EE00F1915B /* Assets.xcassets */; };
@@ -16,6 +27,10 @@
 		6446574E1D6AFFEF00488ADF /* chuizi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6446574C1D6AFFEF00488ADF /* chuizi.png */; };
 		6446574F1D6AFFEF00488ADF /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 6446574D1D6AFFEF00488ADF /* no.png */; };
 		644657531D6B039800488ADF /* WAYWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 644657521D6B039800488ADF /* WAYWindow.m */; };
+		644657581D6B0A7500488ADF /* circular-saw.png in Resources */ = {isa = PBXBuildFile; fileRef = 644657541D6B0A7500488ADF /* circular-saw.png */; };
+		644657591D6B0A7500488ADF /* hammer.png in Resources */ = {isa = PBXBuildFile; fileRef = 644657551D6B0A7500488ADF /* hammer.png */; };
+		6446575A1D6B0A7500488ADF /* pliers.png in Resources */ = {isa = PBXBuildFile; fileRef = 644657561D6B0A7500488ADF /* pliers.png */; };
+		6446575B1D6B0A7500488ADF /* wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 644657571D6B0A7500488ADF /* wrench.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +51,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		643531391D6BE47400DB26D3 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		6435313B1D6BE71400DB26D3 /* PCTitleBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCTitleBar.xib; sourceTree = "<group>"; };
+		6435313D1D6BE7BA00DB26D3 /* PCTitleBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCTitleBarController.h; sourceTree = "<group>"; };
+		6435313E1D6BE7BA00DB26D3 /* PCTitleBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCTitleBarController.m; sourceTree = "<group>"; };
+		643531401D6BF00A00DB26D3 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		643531411D6BF00A00DB26D3 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		643531441D6BF03D00DB26D3 /* browser-visualization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browser-visualization.png"; sourceTree = "<group>"; };
+		643531461D6C0C4600DB26D3 /* tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracker.png; sourceTree = "<group>"; };
+		6435314A1D6C14D600DB26D3 /* open-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open-book.png"; sourceTree = "<group>"; };
+		6435314C1D6C14FA00DB26D3 /* openFile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openFile.png; sourceTree = "<group>"; };
+		6435314E1D6C1F1500DB26D3 /* PCMyProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCMyProjectViewController.h; sourceTree = "<group>"; };
+		6435314F1D6C1F1500DB26D3 /* PCMyProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMyProjectViewController.m; sourceTree = "<group>"; };
+		643531511D6C1F5F00DB26D3 /* PCSharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSharedInstance.h; sourceTree = "<group>"; };
+		643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSharedInstance.m; sourceTree = "<group>"; };
 		643E3FE51D6AE5EE00F1915B /* ProjectCleanerCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCleanerCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643E3FE81D6AE5EE00F1915B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		643E3FE91D6AE5EE00F1915B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +82,10 @@
 		6446574D1D6AFFEF00488ADF /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
 		644657511D6B039800488ADF /* WAYWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAYWindow.h; sourceTree = "<group>"; };
 		644657521D6B039800488ADF /* WAYWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAYWindow.m; sourceTree = "<group>"; };
+		644657541D6B0A7500488ADF /* circular-saw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circular-saw.png"; sourceTree = "<group>"; };
+		644657551D6B0A7500488ADF /* hammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammer.png; sourceTree = "<group>"; };
+		644657561D6B0A7500488ADF /* pliers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pliers.png; sourceTree = "<group>"; };
+		644657571D6B0A7500488ADF /* wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrench.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +180,17 @@
 		6446574B1D6AFFEF00488ADF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6435314C1D6C14FA00DB26D3 /* openFile.png */,
+				6435314A1D6C14D600DB26D3 /* open-book.png */,
+				643531461D6C0C4600DB26D3 /* tracker.png */,
+				643531441D6BF03D00DB26D3 /* browser-visualization.png */,
+				643531401D6BF00A00DB26D3 /* menu-button.png */,
+				643531411D6BF00A00DB26D3 /* settings.png */,
+				643531391D6BE47400DB26D3 /* apple.png */,
+				644657541D6B0A7500488ADF /* circular-saw.png */,
+				644657551D6B0A7500488ADF /* hammer.png */,
+				644657561D6B0A7500488ADF /* pliers.png */,
+				644657571D6B0A7500488ADF /* wrench.png */,
 				6446574C1D6AFFEF00488ADF /* chuizi.png */,
 				6446574D1D6AFFEF00488ADF /* no.png */,
 			);
@@ -165,6 +209,10 @@
 		649F634D1D6AEF580003EDD1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6435313D1D6BE7BA00DB26D3 /* PCTitleBarController.h */,
+				6435313E1D6BE7BA00DB26D3 /* PCTitleBarController.m */,
+				6435314E1D6C1F1500DB26D3 /* PCMyProjectViewController.h */,
+				6435314F1D6C1F1500DB26D3 /* PCMyProjectViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +220,8 @@
 		649F634E1D6AEF580003EDD1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				643531511D6C1F5F00DB26D3 /* PCSharedInstance.h */,
+				643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +229,7 @@
 		649F634F1D6AEF580003EDD1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6435313B1D6BE71400DB26D3 /* PCTitleBar.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,10 +337,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643531431D6BF00A00DB26D3 /* settings.png in Resources */,
+				6435314D1D6C14FA00DB26D3 /* openFile.png in Resources */,
 				643E3FEF1D6AE5EE00F1915B /* Assets.xcassets in Resources */,
+				644657591D6B0A7500488ADF /* hammer.png in Resources */,
 				643E3FF21D6AE5EE00F1915B /* MainMenu.xib in Resources */,
+				6435314B1D6C14D600DB26D3 /* open-book.png in Resources */,
 				6446574F1D6AFFEF00488ADF /* no.png in Resources */,
+				6435313A1D6BE47400DB26D3 /* apple.png in Resources */,
+				6446575B1D6B0A7500488ADF /* wrench.png in Resources */,
+				644657581D6B0A7500488ADF /* circular-saw.png in Resources */,
+				643531471D6C0C4600DB26D3 /* tracker.png in Resources */,
+				6435313C1D6BE71400DB26D3 /* PCTitleBar.xib in Resources */,
+				6446575A1D6B0A7500488ADF /* pliers.png in Resources */,
+				643531421D6BF00A00DB26D3 /* menu-button.png in Resources */,
 				6446574E1D6AFFEF00488ADF /* chuizi.png in Resources */,
+				643531451D6BF03D00DB26D3 /* browser-visualization.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +378,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				644657531D6B039800488ADF /* WAYWindow.m in Sources */,
+				643531501D6C1F1500DB26D3 /* PCMyProjectViewController.m in Sources */,
+				643531531D6C1F5F00DB26D3 /* PCSharedInstance.m in Sources */,
 				643E3FED1D6AE5EE00F1915B /* main.m in Sources */,
 				643E3FEA1D6AE5EE00F1915B /* AppDelegate.m in Sources */,
+				6435313F1D6BE7BA00DB26D3 /* PCTitleBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
