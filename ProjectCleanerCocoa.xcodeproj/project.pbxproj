@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6435313A1D6BE47400DB26D3 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531391D6BE47400DB26D3 /* apple.png */; };
-		6435313C1D6BE71400DB26D3 /* PCTitleBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435313B1D6BE71400DB26D3 /* PCTitleBar.xib */; };
+		6435313C1D6BE71400DB26D3 /* PCTitleBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435313B1D6BE71400DB26D3 /* PCTitleBarController.xib */; };
 		6435313F1D6BE7BA00DB26D3 /* PCTitleBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435313E1D6BE7BA00DB26D3 /* PCTitleBarController.m */; };
 		643531421D6BF00A00DB26D3 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531401D6BF00A00DB26D3 /* menu-button.png */; };
 		643531431D6BF00A00DB26D3 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 643531411D6BF00A00DB26D3 /* settings.png */; };
@@ -20,6 +20,7 @@
 		643531531D6C1F5F00DB26D3 /* PCSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */; };
 		643531561D6C279900DB26D3 /* PCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531551D6C279900DB26D3 /* PCAnimation.m */; };
 		643531591D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531581D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m */; };
+		6435315D1D6C43AC00DB26D3 /* PCMyProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6435315C1D6C43AC00DB26D3 /* PCMyProjectViewController.xib */; };
 		643E3FEA1D6AE5EE00F1915B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FE91D6AE5EE00F1915B /* AppDelegate.m */; };
 		643E3FED1D6AE5EE00F1915B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FEC1D6AE5EE00F1915B /* main.m */; };
 		643E3FEF1D6AE5EE00F1915B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643E3FEE1D6AE5EE00F1915B /* Assets.xcassets */; };
@@ -54,7 +55,7 @@
 
 /* Begin PBXFileReference section */
 		643531391D6BE47400DB26D3 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
-		6435313B1D6BE71400DB26D3 /* PCTitleBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCTitleBar.xib; sourceTree = "<group>"; };
+		6435313B1D6BE71400DB26D3 /* PCTitleBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCTitleBarController.xib; sourceTree = "<group>"; };
 		6435313D1D6BE7BA00DB26D3 /* PCTitleBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCTitleBarController.h; sourceTree = "<group>"; };
 		6435313E1D6BE7BA00DB26D3 /* PCTitleBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCTitleBarController.m; sourceTree = "<group>"; };
 		643531401D6BF00A00DB26D3 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		643531551D6C279900DB26D3 /* PCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAnimation.m; sourceTree = "<group>"; };
 		643531571D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+NSViewAnimationWithBlocks.h"; sourceTree = "<group>"; };
 		643531581D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+NSViewAnimationWithBlocks.m"; sourceTree = "<group>"; };
+		6435315C1D6C43AC00DB26D3 /* PCMyProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCMyProjectViewController.xib; sourceTree = "<group>"; };
 		643E3FE51D6AE5EE00F1915B /* ProjectCleanerCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCleanerCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643E3FE81D6AE5EE00F1915B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		643E3FE91D6AE5EE00F1915B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -239,7 +241,8 @@
 		649F634F1D6AEF580003EDD1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6435313B1D6BE71400DB26D3 /* PCTitleBar.xib */,
+				6435313B1D6BE71400DB26D3 /* PCTitleBarController.xib */,
+				6435315C1D6C43AC00DB26D3 /* PCMyProjectViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -358,8 +361,9 @@
 				6446575B1D6B0A7500488ADF /* wrench.png in Resources */,
 				644657581D6B0A7500488ADF /* circular-saw.png in Resources */,
 				643531471D6C0C4600DB26D3 /* tracker.png in Resources */,
-				6435313C1D6BE71400DB26D3 /* PCTitleBar.xib in Resources */,
+				6435313C1D6BE71400DB26D3 /* PCTitleBarController.xib in Resources */,
 				6446575A1D6B0A7500488ADF /* pliers.png in Resources */,
+				6435315D1D6C43AC00DB26D3 /* PCMyProjectViewController.xib in Resources */,
 				643531421D6BF00A00DB26D3 /* menu-button.png in Resources */,
 				6446574E1D6AFFEF00488ADF /* chuizi.png in Resources */,
 				643531451D6BF03D00DB26D3 /* browser-visualization.png in Resources */,

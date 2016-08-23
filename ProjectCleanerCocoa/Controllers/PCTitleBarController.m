@@ -21,24 +21,9 @@
 @implementation PCTitleBarController
 
 #pragma mark--Life Cycle--
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        
-    }
-    return self;
-}
-
-- (id)init{
-    if (self = [super init]) {
-        self = [self initWithNibName:@"PCTitleBar" bundle:nil];
-    }
-    return self;
-}
-
 - (void)viewDidLoad{
     [super viewDidLoad];
     [self sliderViewConfig];
-//    NSButton
 }
 
 #pragma mark--Private Methods--
