@@ -10,6 +10,8 @@
 
 @interface PCSharedInstance : NSObject
 
+@property (nonatomic, copy)NSString *projectPath;
+
 + (PCSharedInstance *)shareInstance;
 
 @end

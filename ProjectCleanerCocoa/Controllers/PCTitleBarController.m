@@ -7,10 +7,14 @@
 //
 
 #import "PCTitleBarController.h"
+#import "PCAnimation.h"
+#import "NSView+NSViewAnimationWithBlocks.h"
+#import "PCSharedInstance.h"
 
 @interface PCTitleBarController ()
 
 @property (weak) IBOutlet NSButton *myProjectButton;
+@property (weak) IBOutlet NSView *sliderView;
 
 @end
 
@@ -33,10 +37,15 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    [self sliderViewConfig];
 //    NSButton
 }
 
 #pragma mark--Private Methods--
+- (void)sliderViewConfig{
+    [self.sliderView setWantsLayer:YES];
+    self.sliderView.layer.backgroundColor = [NSColor lightGrayColor].CGColor;
+}
 
 - (IBAction)buttonClicked:(NSButton *)sender {
     switch (sender.tag) {
@@ -85,6 +94,17 @@
         default:
             break;
     }
+    if (sender.tag == 10007) {
+        return;
+    }
+    
+    if (![PCSharedInstance shareInstance].projectPath) {
+        [self openPanel];
+        return;
+    }
+    
+    self.sliderView.frame = sender.frame;
+    
 }
 
 - (void)openPanel{
@@ -93,7 +113,8 @@
     [openPanel setCanChooseFiles:NO];
     NSInteger runModal = [openPanel runModal];
     if (runModal == NSModalResponseOK) {
-        
+        PCSharedInstance *instance = [PCSharedInstance shareInstance];
+        instance.projectPath = [[openPanel directoryURL] path];
     }
 }
 

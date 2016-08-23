@@ -18,6 +18,8 @@
 		6435314D1D6C14FA00DB26D3 /* openFile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6435314C1D6C14FA00DB26D3 /* openFile.png */; };
 		643531501D6C1F1500DB26D3 /* PCMyProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6435314F1D6C1F1500DB26D3 /* PCMyProjectViewController.m */; };
 		643531531D6C1F5F00DB26D3 /* PCSharedInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */; };
+		643531561D6C279900DB26D3 /* PCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531551D6C279900DB26D3 /* PCAnimation.m */; };
+		643531591D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 643531581D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m */; };
 		643E3FEA1D6AE5EE00F1915B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FE91D6AE5EE00F1915B /* AppDelegate.m */; };
 		643E3FED1D6AE5EE00F1915B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643E3FEC1D6AE5EE00F1915B /* main.m */; };
 		643E3FEF1D6AE5EE00F1915B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643E3FEE1D6AE5EE00F1915B /* Assets.xcassets */; };
@@ -65,6 +67,10 @@
 		6435314F1D6C1F1500DB26D3 /* PCMyProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCMyProjectViewController.m; sourceTree = "<group>"; };
 		643531511D6C1F5F00DB26D3 /* PCSharedInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSharedInstance.h; sourceTree = "<group>"; };
 		643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSharedInstance.m; sourceTree = "<group>"; };
+		643531541D6C279900DB26D3 /* PCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCAnimation.h; sourceTree = "<group>"; };
+		643531551D6C279900DB26D3 /* PCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCAnimation.m; sourceTree = "<group>"; };
+		643531571D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+NSViewAnimationWithBlocks.h"; sourceTree = "<group>"; };
+		643531581D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+NSViewAnimationWithBlocks.m"; sourceTree = "<group>"; };
 		643E3FE51D6AE5EE00F1915B /* ProjectCleanerCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCleanerCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643E3FE81D6AE5EE00F1915B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		643E3FE91D6AE5EE00F1915B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -201,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				644657511D6B039800488ADF /* WAYWindow.h */,
+				643531571D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.h */,
+				643531581D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m */,
 				644657521D6B039800488ADF /* WAYWindow.m */,
 			);
 			path = Libraries;
@@ -222,6 +230,8 @@
 			children = (
 				643531511D6C1F5F00DB26D3 /* PCSharedInstance.h */,
 				643531521D6C1F5F00DB26D3 /* PCSharedInstance.m */,
+				643531541D6C279900DB26D3 /* PCAnimation.h */,
+				643531551D6C279900DB26D3 /* PCAnimation.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -379,7 +389,9 @@
 			files = (
 				644657531D6B039800488ADF /* WAYWindow.m in Sources */,
 				643531501D6C1F1500DB26D3 /* PCMyProjectViewController.m in Sources */,
+				643531591D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m in Sources */,
 				643531531D6C1F5F00DB26D3 /* PCSharedInstance.m in Sources */,
+				643531561D6C279900DB26D3 /* PCAnimation.m in Sources */,
 				643E3FED1D6AE5EE00F1915B /* main.m in Sources */,
 				643E3FEA1D6AE5EE00F1915B /* AppDelegate.m in Sources */,
 				6435313F1D6BE7BA00DB26D3 /* PCTitleBarController.m in Sources */,
