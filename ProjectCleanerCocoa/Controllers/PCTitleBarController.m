@@ -33,12 +33,6 @@
 }
 
 - (IBAction)buttonClicked:(NSButton *)sender {
-    [NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
-        [context setDuration:0.3];
-        [[self.sliderView animator] setFrame:sender.frame];
-    } completionHandler:^{
-        
-    }];
 
     switch (sender.tag) {
         case 10000:
@@ -94,6 +88,13 @@
         [self openPanel];
         return;
     }
+    
+    [NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
+        [context setDuration:0.3];
+        [[self.sliderView animator] setFrame:sender.frame];
+    } completionHandler:^{
+        
+    }];
     
 }
 

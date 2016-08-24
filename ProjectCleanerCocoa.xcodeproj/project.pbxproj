@@ -209,9 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				644657511D6B039800488ADF /* WAYWindow.h */,
+				644657521D6B039800488ADF /* WAYWindow.m */,
 				643531571D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.h */,
 				643531581D6C2B7900DB26D3 /* NSView+NSViewAnimationWithBlocks.m */,
-				644657521D6B039800488ADF /* WAYWindow.m */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
