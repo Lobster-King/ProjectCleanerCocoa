@@ -10,6 +10,7 @@
 #import "PCAnimation.h"
 #import "NSView+NSViewAnimationWithBlocks.h"
 #import "PCSharedInstance.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface PCTitleBarController ()
 
