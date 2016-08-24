@@ -29,10 +29,17 @@
 #pragma mark--Private Methods--
 - (void)sliderViewConfig{
     [self.sliderView setWantsLayer:YES];
-    self.sliderView.layer.backgroundColor = [NSColor lightGrayColor].CGColor;
+    self.sliderView.layer.backgroundColor = [NSColor colorWithSRGBRed:47.0/255.0 green:79.0/255.0 blue:79.0/255.0 alpha:1].CGColor;
 }
 
 - (IBAction)buttonClicked:(NSButton *)sender {
+    [NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
+        [context setDuration:0.3];
+        [[self.sliderView animator] setFrame:sender.frame];
+    } completionHandler:^{
+        
+    }];
+
     switch (sender.tag) {
         case 10000:
         {
@@ -87,8 +94,6 @@
         [self openPanel];
         return;
     }
-    
-    self.sliderView.frame = sender.frame;
     
 }
 
