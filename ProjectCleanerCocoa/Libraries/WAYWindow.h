@@ -74,4 +74,6 @@
 /// Returns YES if the window is currently in full-screen.
 - (BOOL) isFullScreen;
 
+- (void) setContentViewAppearance: (int) material;
+
 @end

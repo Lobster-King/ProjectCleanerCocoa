@@ -11,6 +11,7 @@
 @interface PCMyProjectViewController ()
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
+@property (weak) IBOutlet NSView *indicatorView;
 
 @end
 
